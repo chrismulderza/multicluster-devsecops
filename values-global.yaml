@@ -26,7 +26,7 @@ global:
     dev_revision: main
 
   quay:
-    # Needs to be set consistently between hub and spoke clusters
+    # # Needs to be set consistently between hub and spoke clusters
     # TODO: Move back to the hub chart, store in a configmap, have an ACM policy distribute to spoke clusters, have spoke look up from configmap
     org:
       name: devel
